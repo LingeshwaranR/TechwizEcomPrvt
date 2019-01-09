@@ -1,0 +1,31 @@
+.header > div {
+  z-index: 0 !important;
+
+}
+a, u {
+  text-decoration: none;
+}
+
+.title h1 {
+  font-family: 'Bungee Inline';
+  font-style: italic;
+}
+
+.menu { 
+  margin-top: 5px;
+  display: none;
+}
+
+.icon-menu {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .menu {
+    display: none;
+  }
+
+  .icon-menu {
+    display: block;
+  }
+}
